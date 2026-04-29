@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access</title>
+    <link rel="stylesheet" href="apple.css">
+</head>
+<body>
+    <div class="container">
+    <div class="logo-section">
+        <div class="apple-logo">
+            <img class="" src="image.png" alt="">
+        </div>
+        <div class="title">Apple Store</div>
+        <div class="subtitle" id="subtitle-text">Kirish</div>
+    </div>
+
+    <div class="auth-card">
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('login')">Kirish</div>
+            <div class="tab" onclick="switchTab('register')">Ro'yxatdan o'tish</div>
+        </div>
+
+        <form id="login-form">
+            <div class="form-group">
+                <label>Email</label>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="email@example.com">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Parol</label>
+                <div class="input-wrapper">
+                    <input type="password" value="password">
+                    <span class="eye-icon">👁</span>
+                </div>
+            </div>
+            <button type="submit" class="btn-submit">
+                <span>→</span> Kirish
+            </button>
+        </form>
+
+        <form id="register-form" class="hidden">
+            <div class="form-group">
+                <label>To'liq ism</label>
+                <div class="input-wrapper"><input type="text" placeholder="Ismingiz"></div>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <div class="input-wrapper"><input type="email" placeholder="email@example.com"></div>
+            </div>
+            <div class="form-group">
+                <label>Telefon</label>
+                <div class="input-wrapper"><input type="text" placeholder="+998 90 123 45 67"></div>
+            </div>
+            <div class="form-group">
+                <label>Parol</label>
+                <div class="input-wrapper"><input type="password" placeholder="••••••••"></div>
+            </div>
+            <div class="form-group">
+                <label>Parolni tasdiqlang</label>
+                <div class="input-wrapper"><input type="password" placeholder="••••••••"></div>
+            </div>
+            <button type="submit" class="btn-submit">
+                Ro'yxatdan o'tish
+            </button>
+        </form>
+
+        <div class="demo-section" id="demo-info">
+            <p>Demo account:</p>
+            <p>Admin: admin@apple.com / admin123</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="java.js"></script>
+</body>
+</html>

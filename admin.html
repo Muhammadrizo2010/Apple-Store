@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="apple.css">
+</head>
+<body class="admin-body">
+    <main class="admin-panel">
+        <header class="admin-header">
+            <div>
+                <p class="admin-badge">Admin Panel</p>
+                <h1 class="admin-title">Boshqaruv paneli</h1>
+                <p class="admin-subtitle">Foydalanuvchilar va tizim statistikasi</p>
+            </div>
+            <nav class="admin-tabs" aria-label="Admin navigation">
+                <button type="button" class="tab active" data-tab="dashboard">Dashboard</button>
+                <button type="button" class="tab" data-tab="users">Foydalanuvchilar</button>
+                <button type="button" class="tab" data-tab="orders">Buyurtmalar</button>
+            </nav>
+        </header>
+
+        <section class="admin-section active" data-section="dashboard">
+            <div class="admin-stats-grid">
+                <article class="admin-card">
+                    <div class="card-meta">
+                        <span>Foydalanuvchilar</span>
+                        <span>Jami ro'yxatdan o'tganlar</span>
+                    </div>
+                    <strong class="card-value">14</strong>
+                    <p class="card-note">+2 bugun</p>
+                </article>
+                <article class="admin-card">
+                    <div class="card-meta">
+                        <span>Buyurtmalar</span>
+                        <span>Jami buyurtmalar</span>
+                    </div>
+                    <strong class="card-value">18</strong>
+                    <p class="card-note">+2 bugun</p>
+                </article>
+                <article class="admin-card">
+                    <div class="card-meta">
+                        <span>Daromad</span>
+                        <span>Umumiy daromad</span>
+                    </div>
+                    <strong class="card-value">165.8M</strong>
+                    <p class="card-note">so'm</p>
+                </article>
+                <article class="admin-card">
+                    <div class="card-meta">
+                        <span>Yangi</span>
+                        <span>Kutilayotgan buyurtmalar</span>
+                    </div>
+                    <strong class="card-value">15</strong>
+                    <p class="card-note">Yangi</p>
+                </article>
+            </div>
+
+            <div class="admin-lists-grid">
+                <article class="admin-card admin-list-card">
+                    <h2>So'nggi foydalanuvchilar</h2>
+                    <p>Oxirgi ro'yxatdan o'tganlar</p>
+                    <ul class="user-list">
+                        <li class="user-item">
+                            <div class="user-item__info">
+                                <strong>Yangi Foydalanuvchi 12</strong>
+                                <span>user12@email.com</span>
+                            </div>
+                            <time datetime="2026-04-24T14:00">2026-04-24 14:00</time>
+                        </li>
+                        <li class="user-item">
+                            <div class="user-item__info">
+                                <strong>Yangi Foydalanuvchi 11</strong>
+                                <span>user11@email.com</span>
+                            </div>
+                            <time datetime="2026-04-24T13:59">2026-04-24 13:59</time>
+                        </li>
+                        <li class="user-item">
+                            <div class="user-item__info">
+                                <strong>Yangi Foydalanuvchi 10</strong>
+                                <span>user10@email.com</span>
+                            </div>
+                            <time datetime="2026-04-24T13:58">2026-04-24 13:58</time>
+                        </li>
+                        <li class="user-item">
+                            <div class="user-item__info">
+                                <strong>Yangi Foydalanuvchi 9</strong>
+                                <span>user9@email.com</span>
+                            </div>
+                            <time datetime="2026-04-24T13:57">2026-04-24 13:57</time>
+                        </li>
+                        <li class="user-item">
+                            <div class="user-item__info">
+                                <strong>Yangi Foydalanuvchi 8</strong>
+                                <span>user8@email.com</span>
+                            </div>
+                            <time datetime="2026-04-24T13:55">2026-04-24 13:55</time>
+                        </li>
+                    </ul>
+                </article>
+                <article class="admin-card admin-list-card">
+                    <h2>So'nggi buyurtmalar</h2>
+                    <p>Oxirgi berilgan buyurtmalar</p>
+                    <ul class="order-list">
+                        <li class="order-item">
+                            <div class="order-item__info">
+                                <strong>Quloqchin</strong>
+                                <span>Mijoz 18</span>
+                            </div>
+                            <div class="order-item__meta">
+                                <span class="order-amount">5.1M so'm</span>
+                                <span class="status status-new">Yangi</span>
+                            </div>
+                        </li>
+                        <li class="order-item">
+                            <div class="order-item__info">
+                                <strong>Telefon</strong>
+                                <span>Mijoz 17</span>
+                            </div>
+                            <div class="order-item__meta">
+                                <span class="order-amount">8.2M so'm</span>
+                                <span class="status status-new">Yangi</span>
+                            </div>
+                        </li>
+                        <li class="order-item">
+                            <div class="order-item__info">
+                                <strong>Noutbuk</strong>
+                                <span>Mijoz 16</span>
+                            </div>
+                            <div class="order-item__meta">
+                                <span class="order-amount">8.2M so'm</span>
+                                <span class="status status-new">Yangi</span>
+                            </div>
+                        </li>
+                        <li class="order-item">
+                            <div class="order-item__info">
+                                <strong>Quloqchin</strong>
+                                <span>Mijoz 15</span>
+                            </div>
+                            <div class="order-item__meta">
+                                <span class="order-amount">8.8M so'm</span>
+                                <span class="status status-new">Yangi</span>
+                            </div>
+                        </li>
+                        <li class="order-item">
+                            <div class="order-item__info">
+                                <strong>Soat</strong>
+                                <span>Mijoz 14</span>
+                            </div>
+                            <div class="order-item__meta">
+                                <span class="order-amount">2.5M so'm</span>
+                                <span class="status status-new">Yangi</span>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="admin-section" data-section="users">
+            <section class="admin-card admin-users-card">
+                <div class="admin-card-header">
+                    <div>
+                        <h1 class="admin-title">Barcha foydalanuvchilar</h1>
+                        <p class="admin-subtitle">Jami: 16 ta foydalanuvchi</p>
+                    </div>
+                </div>
+
+                <div class="admin-table-wrap">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ism</th>
+                                <th>Email</th>
+                                <th>Telefon</th>
+                                <th>Ro'yxatdan o'tgan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#16</td>
+                                <td>Yangi Foydalanuvchi 16</td>
+                                <td>user16@email.com</td>
+                                <td>+998901000015</td>
+                                <td>2026-04-24 14:11</td>
+                            </tr>
+                            <tr>
+                                <td>#15</td>
+                                <td>Yangi Foydalanuvchi 15</td>
+                                <td>user15@email.com</td>
+                                <td>+998901000014</td>
+                                <td>2026-04-24 14:11</td>
+                            </tr>
+                            <tr>
+                                <td>#14</td>
+                                <td>Yangi Foydalanuvchi 14</td>
+                                <td>user14@email.com</td>
+                                <td>+998901000013</td>
+                                <td>2026-04-24 13:58</td>
+                            </tr>
+                            <tr>
+                                <td>#13</td>
+                                <td>Yangi Foydalanuvchi 13</td>
+                                <td>user13@email.com</td>
+                                <td>+998901000012</td>
+                                <td>2026-04-24 13:58</td>
+                            </tr>
+                            <tr>
+                                <td>#12</td>
+                                <td>Yangi Foydalanuvchi 12</td>
+                                <td>user12@email.com</td>
+                                <td>+998901000011</td>
+                                <td>2026-04-24 13:53</td>
+                            </tr>
+                            <tr>
+                                <td>#11</td>
+                                <td>Yangi Foydalanuvchi 11</td>
+                                <td>user11@email.com</td>
+                                <td>+998901000010</td>
+                                <td>2026-04-24 13:59</td>
+                            </tr>
+                            <tr>
+                                <td>#10</td>
+                                <td>Yangi Foydalanuvchi 10</td>
+                                <td>user10@email.com</td>
+                                <td>+998901000009</td>
+                                <td>2026-04-24 13:58</td>
+                            </tr>
+                            <tr>
+                                <td>#9</td>
+                                <td>Yangi Foydalanuvchi 9</td>
+                                <td>user9@email.com</td>
+                                <td>+998901000008</td>
+                                <td>2026-04-24 13:57</td>
+                            </tr>
+                            <tr>
+                                <td>#8</td>
+                                <td>Yangi Foydalanuvchi 8</td>
+                                <td>user8@email.com</td>
+                                <td>+998901000007</td>
+                                <td>2026-04-24 13:55</td>
+                            </tr>
+                            <tr>
+                                <td>#7</td>
+                                <td>Yangi Foydalanuvchi 7</td>
+                                <td>user7@email.com</td>
+                                <td>+998901000006</td>
+                                <td>2026-04-24 13:55</td>
+                            </tr>
+                            <tr>
+                                <td>#6</td>
+                                <td>Yangi Foydalanuvchi 6</td>
+                                <td>user6@email.com</td>
+                                <td>+998901000005</td>
+                                <td>2026-04-24 13:46</td>
+                            </tr>
+                            <tr>
+                                <td>#1</td>
+                                <td>Alisher Karimov</td>
+                                <td>alisher@email.com</td>
+                                <td>+998901234567</td>
+                                <td>2026-04-14 10:30</td>
+                            </tr>
+                            <tr>
+                                <td>#2</td>
+                                <td>Dilnoza Rahimova</td>
+                                <td>dilnoza@email.com</td>
+                                <td>+998902345678</td>
+                                <td>2026-04-14 11:15</td>
+                            </tr>
+                            <tr>
+                                <td>#3</td>
+                                <td>Jamshid Toshmatov</td>
+                                <td>jamshid@email.com</td>
+                                <td>+998903456789</td>
+                                <td>2026-04-13 14:20</td>
+                            </tr>
+                            <tr>
+                                <td>#4</td>
+                                <td>Sevara Abdullayeva</td>
+                                <td>sevara@email.com</td>
+                                <td>+998904567890</td>
+                                <td>2026-04-13 09:45</td>
+                            </tr>
+                            <tr>
+                                <td>#5</td>
+                                <td>Otabek Saidov</td>
+                                <td>otabek@email.com</td>
+                                <td>+998905678901</td>
+                                <td>2026-04-12 16:30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+        <section class="admin-section" data-section="orders">
+            <section class="admin-card admin-users-card">
+                <div class="admin-card-header">
+                    <div>
+                        <h1 class="admin-title">Buyurtmalar</h1>
+                        <p class="admin-subtitle">Oxirgi buyurtmalar bo'limi</p>
+                    </div>
+                </div>
+                <div class="admin-table-wrap">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Nomi</th>
+                                <th>Mijoz</th>
+                                <th>Holat</th>
+                                <th>Summa</th>
+                                <th>Sana</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Quloqchin</td>
+                                <td>Mijoz 7</td>
+                                <td>Yangi</td>
+                                <td>9.9M so'm</td>
+                                <td>2026-04-24</td>
+                            </tr>
+                            <tr>
+                                <td>Telefon</td>
+                                <td>Mijoz 6</td>
+                                <td>Yangi</td>
+                                <td>2.6M so'm</td>
+                                <td>2026-04-24</td>
+                            </tr>
+                            <tr>
+                                <td>Laptop Dell XPS 15</td>
+                                <td>Alisher Karimov</td>
+                                <td>Yangi</td>
+                                <td>15.0M so'm</td>
+                                <td>2026-04-24</td>
+                            </tr>
+                            <tr>
+                                <td>iPhone 15 Pro</td>
+                                <td>Dilnoza Rahimova</td>
+                                <td>Jarayonda</td>
+                                <td>26.0M so'm</td>
+                                <td>2026-04-24</td>
+                            </tr>
+                            <tr>
+                                <td>Samsung Galaxy S24</td>
+                                <td>Jamshid Toshmatov</td>
+                                <td>Yetkazildi</td>
+                                <td>9.5M so'm</td>
+                                <td>2026-04-24</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script>
+        document.querySelectorAll('.admin-tabs .tab').forEach(function(button) {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.admin-tabs .tab').forEach(function(btn) {
+                    btn.classList.remove('active');
+                });
+                document.querySelectorAll('.admin-section').forEach(function(section) {
+                    section.classList.remove('active');
+                });
+                button.classList.add('active');
+                var target = button.getAttribute('data-tab');
+                var section = document.querySelector('.admin-section[data-section="' + target + '"]');
+                if (section) {
+                    section.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
