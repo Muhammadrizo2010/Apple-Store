@@ -31,7 +31,23 @@
         <a class="user-icon" href="./access.html">👤Kirish</a>
       </button>
     </div>
+
+ <button class="burger" id="burgerBtn" aria-label="Menyuni ochish" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
   </div>
+
+  <ul class="mobile-menu" id="mobileMenu">
+    <li><a href="./index.html">Bosh sahifa</a></li>
+    <li><a href="./macbook.html">MacBook</a></li>
+    <li><a href="./iphone.html">iPhone</a></li>
+    <li><a href="./airpods.html">AirPods</a></li>
+    <li><a href="./applewatch.html">Apple Watch</a></li>
+  </ul>
 </header>
 
 
@@ -238,5 +254,15 @@
         </section>
 
     </div> 
+
+
+    <script>
+  let isOpen = false;
+  function toggleMenu() {
+    isOpen = !isOpen;
+    document.getElementById('burgerBtn').classList.toggle('open', isOpen);
+    document.getElementById('mobileMenu').classList.toggle('open', isOpen);
+  }
+</script>
 </body>
 </html>

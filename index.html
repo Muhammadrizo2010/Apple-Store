@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="apple.css">
 </head>
 <body>
-    <header class="header">
+  
+<header class="header">
   <div class="header__container">
+
     <div class="header__logo">
       <img src="./image.png" alt="Logo" class="header__logo-img">
       <span class="header__logo-text">Apple Store</span>
@@ -19,24 +21,36 @@
         <li class="header__item header__item--active">
           <a href="./index.html" class="header__link">Bosh sahifa</a>
         </li>
-        <li class="header__item"><a href="./iphone.html" class="header__link">iPhone</a></li>
+		<li class="header__item"><a href="./iphone.html" class="header__link">iPhone</a></li>
         <li class="header__item"><a href="./macbook.html" class="header__link">MacBook</a></li>
-        <li class="header__item"><a href="applewatch.html" class="header__link">Apple Watch</a></li>
+        <li class="header__item"><a href="./applewatch.html" class="header__link">Apple Watch</a></li>
         <li class="header__item"><a href="./airpods.html" class="header__link">AirPods</a></li>
       </ul>
     </nav>
 
     <div class="header__actions">
       <button class="header__login-btn">
-        <a class="user-icon" href="./access.html">👤Kirish</a>
+        <a class="user-icon" href="./access.html">👤 Kirish</a>
       </button>
-      <button class="header__login-btn">
-        <a class="user-icon" href="./admin.html">Panel</a>
+	  <a class="admin-panel" href="./admin.html">Admin</a>
+      <button class="burger" id="burgerBtn" aria-label="Menyuni ochish" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
     </div>
-  </div>
-</header>
 
+  </div>
+
+  <ul class="mobile-menu" id="mobileMenu">
+    <li><a href="./index.html">Bosh sahifa</a></li>
+    <li><a href="./macbook.html">MacBook</a></li>
+    <li><a href="./iphone.html">iPhone</a></li>
+    <li><a href="./airpods.html">AirPods</a></li>
+    <li><a href="./applewatch.html">Apple Watch</a></li>
+  </ul>
+
+</header>
 
 
 <section class="hero">
@@ -120,6 +134,637 @@
     </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section section-product-viewer theme-dark background-alt no-pad-top staggered-end" data-anim-scroll-group="Product Viewer" data-deep-link="product-viewer" data-theme-changer="dark" data-analytics-section-engagement="name:product viewer" data-component-list="StaggeredFadeIn">
+			<div class="viewport-content">
+				<header class="section-header row">
+					<h2 class="section-header-headline typography-section-header-headline" data-staggered-item="" style="">Take a closer look.</h2>
+					<div class="section-header-cta-list-wrapper">
+						<ul class="section-header-cta-list typography-section-header-link column">
+							<li class="section-header-cta-item section-header-cta-item-view-in-your-space" data-staggered-item="" style="">
+								<span class="ar-link typography-tout-reduced section-header-cta-link"><a class="icon icon-arkit icon-after" rel="ar" href="/105/media/us/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/ar/macbook-pro-14-in-space-black-variant.usdz" data-analytics-title="view macbook pro in your space" data-analytics-click="prop3:view macbook pro in your space" aria-label="View in your space, MacBook Pro" data-analytics-intrapage-link="">
+                              <img>
+                              <span>View in your space</span></a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</header>
+			</div>
+			<div class="product-viewer-wrapper">
+				<div class="product-viewer-component" data-component-list="ProductViewerCore ProductViewer ProductViewerSmall" data-mode="2d" role="region" tabindex="0" aria-label="MacBook Pro product viewer" style="--clip-path-progress: 0; overflow: hidden;">
+					<div class="product-viewer-container" aria-hidden="true">
+						<div class="product-viewer gallery" aria-hidden="true" style="pointer-events: auto; visibility: visible; display: grid; opacity: 1;">
+							<div class="product-viewer-media pin-left small-pin-center">
+								<div class="inline-media-component-container with-media-ui-button ready fallback">
+									<div class="video-wrapper" data-video-id="landing-mac-video" data-component-list="InlineMediaDefault" tabindex="-1">
+										<div class="video-element-stack">
+											<video id="landing-mac-video" preload="none" muted="" playsinline="" data-inline-media="" data-inline-media-basepath="/105/media/us/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/pv-hero/" data-inline-media-retina-disabled="{&quot;breakpoints&quot;:&quot;medium,large,xlarge&quot;}" data-inline-media-play-keyframe="{&quot;start&quot;: &quot;a0t - 60vh&quot;, &quot;end&quot;: &quot;a0b&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-load-keyframe="{&quot;start&quot;: &quot;a0t - 150vh&quot;, &quot;end&quot;: &quot;a0b + 150vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-reset-on-exit="true" data-inline-media-plugins="ReplayOnlyAX,UnloadVideo,AnimLoad,AnimPlay,ViewportSourceOnce" src="" class="play-initiated"></video>
+											<picture id="overview-product-viewer-pv-hero-endframe-1" class="overview-product-viewer-pv-hero-endframe end-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                    	<picture class="overview-product-viewer-pv-hero-endframe end-frame">
+                                    		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large_2x.jpg 2x" media="(min-width:0px)" />
+                                    		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg" alt >
+                                    	</picture>
+                                    </noscript>
+											<picture id="overview-product-viewer-pv-hero-startframe-1" class="overview-product-viewer-pv-hero-startframe start-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                    	<picture class="overview-product-viewer-pv-hero-startframe start-frame">
+                                    		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large_2x.jpg 2x" media="(min-width:0px)" />
+                                    		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_startframe__edowrcgd860y_large.jpg" alt >
+                                    	</picture>
+                                    </noscript>
+										</div>
+										<picture id="overview-product-viewer-pv-hero-endframe-2" class="overview-product-viewer-pv-hero-endframe fallback-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                    	<picture class="overview-product-viewer-pv-hero-endframe fallback-frame">
+                                    		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large_2x.jpg 2x" media="(min-width:0px)" />
+                                    		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_hero_endframe__gc89p7dw1syi_large.jpg" alt >
+                                    	</picture>
+                                    </noscript>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-viewer-media-gallery" aria-hidden="true">
+							<div class="product-viewer-media tour-video tour-sizes pin-left medium-pin-center" style="pointer-events: none; opacity: 0;">
+								<div class="inline-media-component-container with-media-ui-button ready fallback">
+									<div class="video-wrapper" data-video-id="product-viewer-sizes" data-component-list="ProductViewerMediaDefault" tabindex="-1">
+										<div class="video-element-stack">
+											<video id="product-viewer-sizes" preload="none" muted="" playsinline="" data-inline-media="" data-inline-media-basepath="/105/media/us/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/pv-sizes/" data-inline-media-retina-disabled="{&quot;breakpoints&quot;:&quot;medium,large,xlarge&quot;}" data-inline-media-load-keyframe="{&quot;start&quot;: &quot;a0t - 150vh&quot;, &quot;end&quot;: &quot;a0b + 150vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-play-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-plugins="ReplayOnlyAX,UnloadVideo,AnimLoad,ViewportSourceOnce" src=""></video>
+											<picture id="overview-product-viewer-pv-sizes-endframe-1" class="overview-product-viewer-pv-sizes-endframe end-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-sizes-endframe end-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+											<picture id="overview-product-viewer-pv-sizes-startframe-1" class="overview-product-viewer-pv-sizes-startframe start-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-sizes-startframe start-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_startframe__frjeunw0swy2_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+										</div>
+										<picture id="overview-product-viewer-pv-sizes-endframe-2" class="overview-product-viewer-pv-sizes-endframe fallback-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                        	<picture class="overview-product-viewer-pv-sizes-endframe fallback-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_sizes_endframe__eydbew72wkom_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+									</div>
+								</div>
+							</div>
+							<div class="colornav-gallery product-viewer-media tour-colornav-gallery pin-center" aria-hidden="true" data-component-list="ProductViewerColorNavGallery" tabindex="-1" style="pointer-events: none; opacity: 0;">
+								<div class="item-container">
+									<div id="product-viewer-macbook-pro-gallery-item-1" class="gallery-item gallery-item-1" style="z-index: 2; opacity: 1; transform: translate(0px, 0px);">
+										<picture id="overview-product-viewer-pv-colors-spaceblack-1" class="overview-product-viewer-pv-colors-spaceblack gallery-image gallery-image-space-black loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                	<picture class="overview-product-viewer-pv-colors-spaceblack gallery-image gallery-image-space-black">
+                                		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large_2x.jpg 2x" media="(min-width:0px)" />
+                                		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_spaceblack__dwfpyrbaf4cy_large.jpg" alt >
+                                	</picture>
+                                </noscript>
+									</div>
+									<div id="product-viewer-macbook-pro-gallery-item-2" class="gallery-item gallery-item-2 should-hide" data-original-aria-hidden="" aria-hidden="true" style="z-index: 0; opacity: 1; transform: translate(0px, 0px);">
+										<picture id="overview-product-viewer-pv-colors-silver-1" class="overview-product-viewer-pv-colors-silver gallery-image gallery-image-silver loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                	<picture class="overview-product-viewer-pv-colors-silver gallery-image gallery-image-silver">
+                                		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large_2x.jpg 2x" media="(min-width:0px)" />
+                                		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_colors_silver__doa20s4tupaq_large.jpg" alt >
+                                	</picture>
+                                </noscript>
+									</div>
+								</div>
+							</div>
+							<div class="product-viewer-media tour-image tour-display pin-center">
+								<picture id="overview-product-viewer-pv-display-1" class="overview-product-viewer-pv-display loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+									
+									<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large.jpg" onload="window.__lp?.(event)" alt="">
+								</picture>
+								<noscript>
+                  	<picture class="overview-product-viewer-pv-display">
+                  		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large_2x.jpg 2x" media="(min-width:0px)" />
+                  		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_display__fv0jzlzaak2u_large.jpg" alt >
+                  	</picture>
+                  </noscript>
+							</div>
+							<div class="product-viewer-media tour-image tour-ports pin-center" style="">
+								<picture id="overview-product-viewer-pv-connectivity-1" class="overview-product-viewer-pv-connectivity loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+									
+									<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large.jpg" onload="window.__lp?.(event)" alt="">
+								</picture>
+								<noscript>
+                  	<picture class="overview-product-viewer-pv-connectivity">
+                  		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large_2x.jpg 2x" media="(min-width:0px)" />
+                  		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_connectivity__27f84rcgb42e_large.jpg" alt >
+                  	</picture>
+                  </noscript>
+							</div>
+							<div class="product-viewer-media tour-video tour-camera pin-left" style="">
+								<div class="inline-media-component-container with-media-ui-button ready fallback">
+									<div class="video-wrapper" data-video-id="product-viewer-camera" data-component-list="ProductViewerMediaDefault" tabindex="-1">
+										<div class="video-element-stack">
+											<video id="product-viewer-camera" preload="none" muted="" playsinline="" data-inline-media="" data-inline-media-basepath="/105/media/us/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/pv-camera/" data-inline-media-retina-disabled="{&quot;breakpoints&quot;:&quot;medium,large,xlarge&quot;}" data-inline-media-load-keyframe="{&quot;start&quot;: &quot;a0t - 150vh&quot;, &quot;end&quot;: &quot;a0b + 150vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-play-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-plugins="ReplayOnlyAX,UnloadVideo,AnimLoad,ViewportSourceOnce" src=""></video>
+											<picture id="overview-product-viewer-pv-camera-endframe-1" class="overview-product-viewer-pv-camera-endframe end-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-camera-endframe end-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+											<picture id="overview-product-viewer-pv-camera-startframe-1" class="overview-product-viewer-pv-camera-startframe start-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-camera-startframe start-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_startframe__djso3ghzica6_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+										</div>
+										<picture id="overview-product-viewer-pv-camera-endframe-2" class="overview-product-viewer-pv-camera-endframe fallback-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                        	<picture class="overview-product-viewer-pv-camera-endframe fallback-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_camera_endframe__3d423kiwog2y_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+									</div>
+								</div>
+							</div>
+							<div class="product-viewer-media tour-video tour-audio pin-left small-pin-center" style="">
+								<div class="inline-media-component-container with-media-ui-button ready fallback">
+									<div class="video-wrapper" data-video-id="product-viewer-audio" data-component-list="ProductViewerMediaDefault" tabindex="-1">
+										<div class="video-element-stack">
+											<video id="product-viewer-audio" preload="none" muted="" playsinline="" data-inline-media="" data-inline-media-basepath="/105/media/us/macbook-pro/2025/785e1bc4-d1bd-4cf4-b1b3-94b9411c9e74/anim/pv-audio/" data-inline-media-retina-disabled="{&quot;breakpoints&quot;:&quot;medium,large,xlarge&quot;}" data-inline-media-load-keyframe="{&quot;start&quot;: &quot;a0t - 150vh&quot;, &quot;end&quot;: &quot;a0b + 150vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-play-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-inline-media-plugins="ReplayOnlyAX,UnloadVideo,AnimLoad,ViewportSourceOnce" src=""></video>
+											<picture id="overview-product-viewer-pv-audio-endframe-1" class="overview-product-viewer-pv-audio-endframe end-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-audio-endframe end-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+											<picture id="overview-product-viewer-pv-audio-startframe-1" class="overview-product-viewer-pv-audio-startframe start-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+												
+												<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large.jpg" onload="window.__lp?.(event)" alt="">
+											</picture>
+											<noscript>
+                                        	<picture class="overview-product-viewer-pv-audio-startframe start-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_startframe__fww1g0h7gn22_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+										</div>
+										<picture id="overview-product-viewer-pv-audio-endframe-2" class="overview-product-viewer-pv-audio-endframe fallback-frame loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;:&quot;a0t - 100vh&quot;,&quot;end&quot;:&quot;a0b + 100vh&quot;,&quot;anchors&quot;:[&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+											
+											<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg" onload="window.__lp?.(event)" alt="">
+										</picture>
+										<noscript>
+                                        	<picture class="overview-product-viewer-pv-audio-endframe fallback-frame">
+                                        		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large_2x.jpg 2x" media="(min-width:0px)" />
+                                        		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_audio_endframe__ee95uehal7sm_large.jpg" alt >
+                                        	</picture>
+                                        </noscript>
+									</div>
+								</div>
+							</div>
+							<div class="product-viewer-media tour-image tour-durability pin-left small-pin-center" style="">
+								<picture id="overview-product-viewer-pv-durable-1" class="overview-product-viewer-pv-durable loaded" data-lazy="" data-download-area-keyframe="{&quot;start&quot;: &quot;a0t - 100vh&quot;, &quot;end&quot;: &quot;a0b + 100vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-component&quot;]}" data-picture-loaded="">
+									
+									<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_small_2x.jpg 2x" media="(max-width:734px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_medium_2x.jpg 2x" media="(max-width:1068px)"><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large_2x.jpg 2x" media="(min-width:0px)"><img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large.jpg" onload="window.__lp?.(event)" alt="">
+								</picture>
+								<noscript>
+                  	<picture class="overview-product-viewer-pv-durable">
+                  		<source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_small.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_small_2x.jpg 2x" media="(max-width:734px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_medium.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large.jpg, /v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large_2x.jpg 2x" media="(min-width:0px)" />
+                  		<img src="/v/macbook-pro/ax/images/overview/product-viewer/pv_durable__ee5bejbfpis2_large.jpg" alt >
+                  	</picture>
+                  </noscript>
+							</div>
+						</div>
+					</div>
+					<div class="all-access-pass--product-viewer" style="--blur-amount: 20px; --max-card-height: 189.59375px;">
+						<div role="img" class="landing-element-accessibility-container" aria-label="Front view of slightly open MacBook Pro in space black" data-aria-label-fallback="Front view of slightly open MacBook Pro in space black"></div>
+						<div class="controls" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+							<div class="intro-element" style=""></div>
+							<ul class="control-group">
+								<li class="control-item control-tour-sizes" data-index="0" data-mtype="video" data-aca-slide="sizes" style="width: 126.656px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-tour-sizes--button" class="control-item-open" aria-expanded="false" data-tour-media-id="sizes">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Sizes</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-tour-sizes--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Sizes.</strong> The 14-inch model is available with the M5, M5&nbsp;Pro, or M5&nbsp;Max chip. The 16‑inch model is available with the M5&nbsp;Pro or M5&nbsp;Max&nbsp;chip.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -148px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="14-inch MacBook Pro in space black next to 16-inch MacBook Pro in silver" data-aria-label="Animation of a 14-inch MacBook Pro in space black next to 16-inch MacBook Pro in silver" data-aria-label-small="" data-aria-label-fallback="14-inch MacBook Pro in space black next to 16-inch MacBook Pro in silver"></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev" disabled="">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item control-color" data-index="1" data-type="color-selector" data-mtype="gallery" data-aca-slide="colors" style="width: 135.938px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-color--button" class="control-item-open" aria-expanded="false" data-tour-media-id="colornav-gallery">
+                                        <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><span class="control-color-active-swatch space-black colornav-swatch" aria-hidden="true" style="">Space&nbsp;Black</span><span class="control-color-active-label" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">Colors</span></span>
+                                  </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-color--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Colors.</strong> Available in two stunning finishes. MacBook&nbsp;Pro shown in&nbsp;<span class="control-color-current">Space&nbsp;Black</span>.</p>
+												<fieldset class="colornav colornav-reduced colornav-neutral">
+													<legend class="colornav-title">MacBook Pro Colors.</legend>
+													<ul class="colornav-items">
+														<li class="colornav-item" style="--color-index: 0">
+															<input type="radio" name="colornav-variant-default" class="colornav-value" id="colornav-value-space-black" value="space-black" data-label="Space&nbsp;Black" data-index="0" data-default-color="true" checked="" data-analytics-click="prop3:colornav select - space black" data-analytics-title="colornav select - space black" data-analytics-intrapage-link="">
+															<label for="colornav-value-space-black" class="colornav-link" aria-hidden="true">
+                                                      <span class="colornav-swatch colornav-swatch-space-black">
+                                                          <span class="colornav-label">Space&nbsp;Black</span>
+                                                      </span>
+                                                  </label>
+														</li>
+														<li class="colornav-item" style="--color-index: 1">
+															<input type="radio" name="colornav-variant-default" class="colornav-value" id="colornav-value-silver" value="silver" data-label="Silver" data-index="1" data-analytics-click="prop3:colornav select - silver" data-analytics-title="colornav select - silver" data-analytics-intrapage-link="">
+															<label for="colornav-value-silver" class="colornav-link" aria-hidden="true">
+                                                      <span class="colornav-swatch colornav-swatch-silver">
+                                                          <span class="colornav-label">Silver</span>
+                                                      </span>
+                                                  </label>
+														</li>
+													</ul>
+												</fieldset>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -216px;">
+											<div class="control-item-accessibility-image" role="img" data-aria-map="{&quot;space-black&quot;: &quot;MacBook Pro shown in space black&quot;, &quot;silver&quot;: &quot;MacBook Pro shown in silver&quot;}" aria-label="MacBook Pro shown in space black" data-aria-label="MacBook Pro shown in space black" data-aria-label-small=""></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                        <span class="paddlenav-icon">
+                                              <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                  <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                              </svg>    </span>
+                                      </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                        <span class="paddlenav-icon">
+                                              <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                  <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                              </svg>    </span>
+                                      </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item control-tour-display" data-index="2" data-mtype="image" data-aca-slide="display" style="width: 142.812px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-tour-display--button" class="control-item-open" aria-expanded="false" data-tour-media-id="display">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Display</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-tour-display--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Display.</strong> The brilliant Liquid&nbsp;Retina&nbsp;XDR&nbsp;display delivers 1600 nits peak HDR brightness<sup data-footnote="numbered-peak-hdr-brightness" class="footnote footnote-number"><a href="#footnote-5" aria-label="Footnote 2" data-modal-close="">2</a></sup> and a 1,000,000:1 contrast ratio. 4K videos and HDR photos look more true to life with deep blacks, bright highlights, and vibrant colors.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -284px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="Screen on MacBook Pro of a colorful image of a person wearing sunglasses, showcasing the vibrant Liquid Retina XDR display" data-aria-label="Screen on MacBook Pro of a colorful image of a person wearing sunglasses, showcasing the vibrant Liquid Retina XDR display" data-aria-label-small=""></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item" data-index="3" data-mtype="image" data-aca-slide="connectivity" style="width: 185.219px; height: 56px;">
+									<div class="control-item-bg-container" style="justify-content: flex-start;">
+										<span class="control-item-bg" style="opacity: 1;"></span>
+									</div>
+									<button id="--button" class="control-item-open" aria-expanded="false" data-tour-media-id="ports">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Connectivity</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Connectivity.</strong> Every MacBook&nbsp;Pro comes with three Thunderbolt&nbsp;4 or 5 ports, an HDMI port, a MagSafe&nbsp;3 port, an SDXC card slot, and a headphone jack.<sup data-footnote="numbered-port-config" class="footnote footnote-number"><a href="#footnote-15" aria-label="Footnote 12" data-modal-close="">12</a></sup> Connect high-speed peripherals, transfer photos, drive multiple external&nbsp;displays, and power up instantly.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -352px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="A woman in her home working at her desk with MacBook Pro connected to an external display, wearing headphones and speaking into a microphone" data-aria-label="A woman in her home working at her desk with MacBook Pro connected to an external display, wearing headphones and speaking into a microphone" data-aria-label-small=""></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item control-tour-camera" data-index="4" data-mtype="video" data-aca-slide="camera" style="width: 146.25px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-tour-camera--button" class="control-item-open" aria-expanded="false" data-tour-media-id="camera">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Camera</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-tour-camera--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Camera.</strong> The 12MP Center Stage camera keeps you in frame as you move around. And Desk&nbsp;View lets you share your&nbsp;workspace.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -420px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="A video call on MacBook Pro, a woman talks to two people on the call, Center Stage keeps her centered in the frame" data-aria-label="Animation of a video call on MacBook Pro, a woman talks to two people on the call, Center Stage keeps her centered in the frame, even as she moves around" data-aria-label-small="" data-aria-label-fallback="A video call on MacBook Pro, a woman talks to two people on the call, Center Stage keeps her centered in the frame"></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item control-tour-mics-and-speakers" data-index="5" data-mtype="video" data-aca-slide="mics and speakers" style="width: 232.312px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-tour-mics-and-speakers--button" class="control-item-open" aria-expanded="false" data-tour-media-id="audio">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Mics and speakers</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-tour-mics-and-speakers--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Mics and speakers.</strong> With a studio-quality three-mic array and a six-speaker sound system that supports Spatial&nbsp;Audio and Dolby&nbsp;Atmos, MacBook&nbsp;Pro brings incredible audio to any&nbsp;space.</p>
+												<p class="typography-caption">Stream <em>The Secret Lives of Animals</em> on Apple&nbsp;TV with a&nbsp;subscription.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -488px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="A top-down view of the MacBook Pro with the show The Secret Life of Animals on the screen" data-aria-label="Animation of a top-down view of the MacBook Pro with the show The Secret Life of Animals on the screen" data-aria-label-small="" data-aria-label-fallback="A top-down view of the MacBook Pro with the show The Secret Life of Animals on the screen"></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+								<li class="control-item control-tour-durable-design" data-index="6" data-mtype="image" data-aca-slide="durability" style="width: 161.375px; height: 56px;">
+									<div class="control-item-bg-container">
+										<span class="control-item-bg" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;"></span>
+									</div>
+									<button id="control-tour-durable-design--button" class="control-item-open" aria-expanded="false" data-tour-media-id="durability">
+                                      <span class="control-item-label typography-all-access-pass-pv-item-label" style="opacity: 1;"><svg class="plus-icon" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="11.3" style="stroke: var(--app-pv-icon-fill); fill: none;"></circle>
+                          <g transform="translate(7 7)" style="stroke: none; fill: var(--app-pv-icon-fill);">
+                            <path d="m9 4h-3v-3c0-0.553-0.447-1-1-1s-1 0.447-1 1v3h-3c-0.553 0-1 0.447-1 1s0.447 1 1 1h3v3c0 0.553 0.447 1 1 1s1-0.447 1-1v-3h3c0.553 0 1-0.447 1-1s-0.447-1-1-1"></path>
+                          </g>
+                      </svg>
+                       Durability</span>
+                                    </button>
+									<div tabindex="-1" class="control-item-content" aria-hidden="true" aria-labelledby="control-tour-durable-design--button" style="">
+										<div class="control-item-content-mask">
+											<div class="control-item-content-inner">
+												<p class="typography-all-access-pass-pv-item-body"><strong class="typography-all-access-pass-pv-item-title">Durability.</strong> Made with 100 percent recycled aluminum in the enclosure, MacBook&nbsp;Pro is built to withstand daily use and designed to&nbsp;last.</p>
+											</div>
+										</div>
+										<div class="control-item-accessibility-container" style="top: -556px;">
+											<div class="control-item-accessibility-image" role="img" aria-label="Students in an architecture class, one student is working on his architecture project with his MacBook Pro alongside his partner" data-aria-label="Students in an architecture class, one student is working on his architecture project with his MacBook Pro alongside his partner" data-aria-label-small=""></div>
+										</div>
+										<div class="control-item-nav" style="">
+											<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronleft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m20 25c-.3838 0-.7676-.1465-1.0605-.4395l-5.5-5.5c-.5859-.5854-.5859-1.5356 0-2.1211l5.5-5.5c.5859-.5859 1.5352-.5859 2.1211 0 .5859.5854.5859 1.5356 0 2.1211l-4.4395 4.4395 4.4395 4.4395c.5859.5854.5859 1.5356 0 2.1211-.293.293-.6768.4395-1.0605.4395z"></path>
+                                                  </svg>    </span>
+                                          </button>
+											<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next" disabled="">
+                                            <span class="paddlenav-icon">
+                                                  <svg class="icon-control icon-control-chevronright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                                      <path d="m22.5597 16.9375-5.5076-5.5c-.5854-.5854-1.5323-.5825-2.1157.0039-.5835.5869-.5815 1.5366.0039 2.1211l4.4438 4.4375-4.4438 4.4375c-.5854.5845-.5874 1.5342-.0039 2.1211.2922.2944.676.4414 1.0598.4414.3818 0 .7637-.1455 1.0559-.4375l5.5076-5.5c.2815-.2812.4403-.6636.4403-1.0625s-.1588-.7812-.4403-1.0625z"></path>
+                                                  </svg>    </span>
+                                          </button>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="paddlenav-container" style="transform: matrix(0, 0, 0, 0, 0, 120);">
+								<button aria-label="Previous feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-prev" disabled="true">
+                                  <span class="paddlenav-icon">
+                                        <svg class="icon-control icon-control-chevronup" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                            <path d="m11 20c0-.3838.1465-.7676.4395-1.0605l5.5-5.5c.5854-.5859 1.5356-.5859 2.1211 0l5.5 5.5c.5859.5859.5859 1.5352 0 2.1211-.5854.5859-1.5356.5859-2.1211 0l-4.4395-4.4395-4.4395 4.4395c-.5854.5859-1.5356.5859-2.1211 0-.293-.293-.4395-.6768-.4395-1.0605z"></path>
+                                        </svg>            </span>
+                                </button>
+								<button aria-label="Next feature, MacBook Pro product viewer" class="paddlenav-button paddlenav-next">
+                                  <span class="paddlenav-icon">
+                                        <svg class="icon-control icon-control-chevrondown" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                            <path d="m19.0625 22.5597 5.5-5.5076c.5854-.5854.5825-1.5323-.0039-2.1157-.5869-.5835-1.5366-.5815-2.1211.0039l-4.4375 4.4438-4.4375-4.4438c-.5845-.5854-1.5342-.5874-2.1211-.0039-.2944.2922-.4414.676-.4414 1.0598 0 .3818.1455.7637.4375 1.0559l5.5 5.5076c.2813.2815.6636.4403 1.0625.4403s.7812-.1588 1.0625-.4403z"></path>
+                                        </svg>            </span>
+                                </button>
+							</div>
+						</div>
+						<div class="close-button-wrapper">
+							<button aria-label="Close" class="close-button" data-analytics-intrapage-link="" data-focus-expression="{&quot;expression&quot;: &quot;a0t - 50px&quot;, &quot;anchors&quot;:[&quot;.product-viewer-component&quot;], &quot;tabindex&quot;: 0}" tabindex="0" style="transform: matrix(0, 0, 0, 0, 0, 120);">
+                            <span class="close-icon">
+                                  <svg class="icon-control icon-control-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                                      <path d="m20.1211 18 3.4395-3.4395c.5859-.5854.5859-1.5356 0-2.1211-.5859-.5859-1.5352-.5859-2.1211 0l-3.4395 3.4395-3.4395-3.4395c-.5859-.5859-1.5352-.5859-2.1211 0-.5859.5854-.5859 1.5356 0 2.1211l3.4395 3.4395-3.4395 3.4395c-.5859.5854-.5859 1.5356 0 2.1211.293.293.6768.4395 1.0605.4395s.7676-.1465 1.0605-.4395l3.4395-3.4395 3.4395 3.4395c.293.293.6768.4395 1.0605.4395s.7676-.1465 1.0605-.4395c.5859-.5854.5859-1.5356 0-2.1211l-3.4395-3.4395z"></path>
+                                  </svg>      </span>
+                          </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="footer__big-box">
 <footer class="footer">
   <div class="footer__container">
@@ -136,5 +781,14 @@
   </div>
 </footer>
 </div>
+<script>
+	let isOpen = false;
+
+  function toggleMenu() {
+    isOpen = !isOpen;
+    document.getElementById('burgerBtn').classList.toggle('open', isOpen);
+    document.getElementById('mobileMenu').classList.toggle('open', isOpen);
+  }
+</script>
 </body>
 </html>

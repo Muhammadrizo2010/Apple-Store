@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="apple.css">
 </head>
 <body>
-    <header class="header">
+      <header class="header">
   <div class="header__container">
+
     <div class="header__logo">
       <img src="./image.png" alt="Logo" class="header__logo-img">
       <span class="header__logo-text">Apple Store</span>
@@ -16,22 +17,35 @@
 
     <nav class="header__nav">
       <ul class="header__list">
-        <li class="header__item ">
-          <a href="index.html" class="header__link">Bosh sahifa</a>
-        </li>
+        <li class="header__item"><a href="./index.html" class="header__link">Bosh sahifa</a></li>
         <li class="header__item header__item--active"><a href="./iphone.html" class="header__link">iPhone</a></li>
-        <li class="header__item "><a href="./macbook.html" class="header__link">MacBook</a></li>
-        <li class="header__item "><a href="applewatch.html" class="header__link">Apple Watch</a></li>
+        <li class="header__item"><a href="./macbook.html" class="header__link">MacBook</a></li>
+        <li class="header__item"><a href="./applewatch.html" class="header__link">Apple Watch</a></li>
         <li class="header__item"><a href="./airpods.html" class="header__link">AirPods</a></li>
       </ul>
     </nav>
 
     <div class="header__actions">
       <button class="header__login-btn">
-        <a class="user-icon" href="./access.html">👤Kirish</a>
+        <a class="user-icon" href="./access.html">👤 Kirish</a>
+      </button>
+      <button class="burger" id="burgerBtn" aria-label="Menyuni ochish" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
     </div>
+
   </div>
+
+  <ul class="mobile-menu" id="mobileMenu">
+    <li><a href="./index.html">Bosh sahifa</a></li>
+    <li><a href="./macbook.html">MacBook</a></li>
+    <li><a href="./iphone.html">iPhone</a></li>
+    <li><a href="./airpods.html">AirPods</a></li>
+    <li><a href="./applewatch.html">Apple Watch</a></li>
+  </ul>
+</header>
 
   <div class="main-container">
         
@@ -46,8 +60,8 @@
                 <a href="#" class="btn btn--blue">$999 dan xarid qilish</a>
                 <a href="#" class="btn btn--outline">Texnik xususiyatlar</a>
             </div>
-        </section>
-
+        </section> 
+ 
         <section class="colors">
             <h2 class="colors__title">To'rtta ajoyib rang</h2>
             <p class="colors__text">Titanium go'zalligida</p>
@@ -109,7 +123,7 @@
             
         </section>
 
-        <section class="banner">
+        <footer class="banner">
             <div class="banner__card">
                 <h2 class="banner__title">O'zingizniki qiling</h2>
                 <p class="banner__text">256GB dan boshlab. To'rtta rangda.</p>
@@ -118,8 +132,18 @@
                     <button class="btn btn--glass">Batafsil ma'lumot</button>
                 </div>
             </div>
-        </section>
+        </footer>
 
     </div>
+    <script>
+        
+  let isOpen = false;
+
+  function toggleMenu() {
+    isOpen = !isOpen;
+    document.getElementById('burgerBtn').classList.toggle('open', isOpen);
+    document.getElementById('mobileMenu').classList.toggle('open', isOpen);
+  }
+  </script>
 </body>
 </html>
