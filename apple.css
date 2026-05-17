@@ -149,7 +149,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .header__list {
     position: absolute;
     top: 100%;
