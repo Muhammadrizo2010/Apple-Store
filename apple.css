@@ -1771,6 +1771,10 @@ body {
             font-weight: 500;
         }
 
+        @media (max-width: 768px) {
+            .spec { grid-template-columns: 1fr; }
+        }
+
         /* 3. CALL TO ACTION (Banner qismi) */
         .buy-banner {
             background: var(--cta-gradient);
